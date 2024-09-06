@@ -1,4 +1,4 @@
-root {
+:root {
     --fs-sm: 16px;
     --fs-md: 18px;
     --fs-lg: 20px;
@@ -132,4 +132,7 @@ root {
 
 .bgc-orange {
     background-color: var(--fc-orange);
+}
+.bgc-yellow{
+    background-color: var(--fc-yellow);
 }
