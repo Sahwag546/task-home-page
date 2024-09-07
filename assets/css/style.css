@@ -12,30 +12,42 @@
     padding-right: 20px;
     padding-left: 20px;
 }
-.py_10_20{
+
+a {
+    text-decoration: none !important;
+}
+
+.py_10_20 {
     padding-top: 10px;
     padding-bottom: 20px;
 }
-.m_width_734{
+
+.m_width_734 {
     max-width: 734px !important;
+}
+
+.m_w_440 {
+    max-width: 440px !important;
 }
 
 .p_10_24 {
     padding: 10px 24px;
 }
-.fw_900{
+
+.fw_900 {
     font-weight: 900 !important;
 }
 
 .border_orange {
     border: 1px solid #f58550;
 }
-.border_black{
+
+.border_black {
     border: 1px solid #686C6B;
 }
 
 .sec_1 {
-    background-image: url(/assets/images/sec-1-bg.png);
+    background-image: url(/task-home-page/assets/images/sec-1-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -50,9 +62,16 @@
 
 .sec_1 ul li a:hover {
     -webkit-text-stroke: 0.5px;
+    color: #f96724 !important;
 }
+
+.sec_3 a {
+    transition: all 200ms linear;
+}
+
 .sec_3 a:hover {
     -webkit-text-stroke: 0.5px;
+    color: #f96724 !important;
 }
 
 .lh_61 {
@@ -66,15 +85,99 @@
 .pb_40 {
     padding-bottom: 40px;
 }
-.butn{
+
+.butn {
     transition: all 200ms linear;
 }
-.butn:hover{
+
+.butn:hover {
     background-color: #f96724 !important;
     color: white !important;
 }
 
+.sec_3_card {
+    transition: all 200ms linear;
+    cursor: pointer;
+}
 
+.sec_3_card:hover {
+    transform: scale(1.02);
+    overflow: hidden;
+}
+
+footer .circle {
+    height: 35px;
+    width: 35px;
+    background: #2B2B2B;
+    border-radius: 40px;
+}
+
+footer a {
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    color: white !important;
+}
+
+footer a,
+path {
+    transition: all 200ms linear !important;
+}
+
+footer a:hover {
+    -webkit-text-stroke: 0.5px !important;
+    color: #f96724 !important;
+
+    path {
+        fill: #f96724;
+    }
+}
+
+footer .home_link li {
+    padding-bottom: 24px !important;
+}
+
+.pb_24 {
+    padding-bottom: 24px;
+}
+
+.pb_10 {
+    padding-bottom: 10px;
+}
+
+.pt_80 {
+    padding-top: 80px !important;
+}
+
+@media (max-width:576.98px) {
+    footer a {
+        font-size: 16px !important;
+    }
+
+    footer .home_link li {
+        padding-bottom: 16px !important;
+    }
+
+    footer .circle {
+        height: 25px;
+        width: 25px;
+    }
+
+    .justify_content_sm_center {
+        justify-content: center;
+    }
+}
+
+@media (max-width:767.98px) {
+    .lh_md_50 {
+        line-height: 50px !important;
+    }
+}
+
+@media (max-width:991.98px) {
+    .h_370 {
+        max-height: 370px !important;
+    }
+}
 
 @media (max-width:1199.8px) {
     label[for="menuicons"] {
