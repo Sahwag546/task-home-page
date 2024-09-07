@@ -148,6 +148,143 @@ footer .home_link li {
     padding-top: 80px !important;
 }
 
+.py_12 {
+    padding: 12px 0px !important;
+}
+
+.mt_12 {
+    margin-top: 12px !important;
+}
+
+/* ==============================================================sahwag============================================== */
+
+.name {
+    font-family: Arquitecta;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+}
+
+.mx-433 {
+    max-width: 433px;
+}
+
+.m_w_330 {
+    max-width: 330px !important;
+}
+
+.mx-w-1000 {
+    max-width: 1000px !important;
+}
+
+.py-60 {
+    padding-right: 55px;
+    padding-bottom: 60px;
+}
+
+.overflow-slider {
+    font-family: "Arquitecta", sans-serif;
+}
+
+.slick-track {
+    display: flex !important;
+    gap: 32px !important;
+}
+
+.slider-box {
+    box-shadow: 0px 0px 20px 1px #00000012;
+    padding: 24px;
+}
+
+.slider-box p {
+    font-family: "Arquitecta", sans-serif;
+    font-weight: 500;
+    line-height: 31.2px;
+}
+
+.slick-dots li {
+    background-color: #E2E4E4;
+    border-radius: 22px;
+    transition: all 200ms linear;
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.slick-dots li button:before {
+    content: unset !important;
+}
+
+.slick-dots .slick-active {
+    background-color: var(--fc-orange);
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.slick-dots {
+    bottom: -50px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.slick-prev:before {
+    content: none;
+}
+
+.slick-next:before {
+    content: none;
+}
+
+.slick-track {
+    display: flex;
+    gap: 20px;
+}
+
+.mx-w-1140 {
+    max-width: 1140px;
+}
+
+/*================= section -3 ===============*/
+.heading-2 {
+    font-family: "Arquitecta", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 44.1px;
+    text-align: left;
+}
+
+.bg-image {
+    background-image: url(/task-home-page/assets/images/bg-img-A.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mx-730 {
+    max-width: 730px;
+}
+
+.para-2 {
+    font-family: "Arquitecta", sans-serif;
+    font-size: 24px;
+    line-height: 31.2px;
+}
+
+.name-input {
+    border: 1px solid var(--fc-dark-grey);
+    font-family: "Arquitecta", sans-serif;
+    width: 25%;
+}
+
+@media (max-width:767.98px) {
+    .name-input {
+        width: 180px;
+    }
+
+    .btn {
+        width: 180px;
+    }
+}
+
 @media (max-width:576.98px) {
     footer a {
         font-size: 16px !important;
