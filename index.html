@@ -21,7 +21,7 @@
 
 <body>
     <section class="sec_1 min-vh-100 d-flex align-items-center flex-column">
-        <nav class="w-100 py-3 position-fixed">
+        <nav class="w-100 py-3 position-fixed z-1">
             <div class="container d-flex justify-content-between align-items-center">
                 <a href=""><img src="./assets/images/logo.png" alt="logo">
                 </a>
@@ -302,7 +302,6 @@
                 </div>
             </div>
         </div>
-        </div>
     </section>
 
 
@@ -384,7 +383,6 @@
                 </div>
             </div>
         </div>
-        </div>
     </section>
 
 
@@ -410,7 +408,8 @@
                 <input type="text" placeholder="Email Address"
                     class="bg-transparent name-input fc-white d-flex mx-auto py_12 px-3 mb-4 mt_12 w-100">
 
-                <button class="bgc-orange w-100 border-0 butn fw-bold fs-lg fc-white d-flex justify-content-center py_12">START
+                <button
+                    class="bgc-orange w-100 border-0 butn fw-bold fs-lg fc-white d-flex justify-content-center py_12">START
                     NOW</button>
             </div>
         </div>
@@ -645,5 +644,17 @@
             ]
 
         });
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 500) {
+                    $("nav").css("background", "black");
+                }
+
+                else {
+                    $("nav").css("background", "transparent");
+                }
+            })
+        })
     </script>
 </body>
