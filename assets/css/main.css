@@ -1,16 +1,163 @@
 @import url('https://fonts.cdnfonts.com/css/arquitecta');
 
-.heading {
-        font-family: "Arquitecta", sans-serif;
-        font-weight: 700;
-        line-height: 44.1px;
+* {
+        font-family: "arquitecta", sans-serif;
 }
 
-.pt-66px {
-        padding-top: 66px;
+.gap_40 {
+        gap: 40px;
 }
 
-/* ================= slider ===========*/
+.px_20 {
+        padding-right: 20px;
+        padding-left: 20px;
+}
+
+a {
+        text-decoration: none !important;
+}
+
+.py_10_20 {
+        padding-top: 10px;
+        padding-bottom: 20px;
+}
+
+.m_width_734 {
+        max-width: 734px !important;
+}
+
+.m_w_440 {
+        max-width: 440px !important;
+}
+
+.p_10_24 {
+        padding: 10px 24px;
+}
+
+.fw_900 {
+        font-weight: 900 !important;
+}
+
+.border_orange {
+        border: 1px solid #f58550;
+}
+
+.border_black {
+        border: 1px solid #686C6B;
+}
+
+.sec_1 {
+        background-image: url(/assets/images/sec-1-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+}
+
+.sec_1 ul li a {
+        font-size: 20px;
+        font-weight: 450;
+        transition: all 200ms linear;
+}
+
+.sec_1 ul li a:hover {
+        -webkit-text-stroke: 0.5px;
+        color: #f96724 !important;
+}
+
+.sec_3 a {
+        transition: all 200ms linear;
+}
+
+.sec_3 a:hover {
+        -webkit-text-stroke: 0.5px;
+        color: #f96724 !important;
+}
+
+.lh_61 {
+        line-height: 61px;
+}
+
+.lh_33 {
+        line-height: 33px;
+}
+
+.pb_40 {
+        padding-bottom: 40px;
+}
+
+.butn {
+        transition: all 200ms linear;
+}
+
+.butn:hover {
+        background-color: #f96724 !important;
+        color: white !important;
+}
+
+.sec_3_card {
+        transition: all 200ms linear;
+        cursor: pointer;
+}
+
+.sec_3_card:hover {
+        transform: scale(1.02);
+        overflow: hidden;
+}
+
+footer .circle {
+        height: 35px;
+        width: 35px;
+        background: #2B2B2B;
+        border-radius: 40px;
+}
+
+footer a {
+        font-size: 24px !important;
+        font-weight: 500 !important;
+        color: white !important;
+}
+
+footer a,
+path {
+        transition: all 200ms linear !important;
+}
+
+footer a:hover {
+        -webkit-text-stroke: 0.5px !important;
+        color: #f96724 !important;
+
+        path {
+                fill: #f96724;
+        }
+}
+
+footer .home_link li {
+        padding-bottom: 24px !important;
+}
+
+.pb_24 {
+        padding-bottom: 24px;
+}
+
+.pb_10 {
+        padding-bottom: 10px;
+}
+
+.pt_80 {
+        padding-top: 80px !important;
+}
+
+.py_12 {
+        padding: 12px 0px !important;
+}
+
+.mt_12 {
+        margin-top: 12px !important;
+}
+
+/* ==============================================================sahwag============================================== */
+
 .name {
         font-family: Arquitecta;
         font-size: 28px;
@@ -22,6 +169,14 @@
         max-width: 433px;
 }
 
+.m_w_330 {
+        max-width: 330px !important;
+}
+
+.mx-w-1000 {
+        max-width: 1000px !important;
+}
+
 .py-60 {
         padding-right: 55px;
         padding-bottom: 60px;
@@ -29,6 +184,11 @@
 
 .overflow-slider {
         font-family: "Arquitecta", sans-serif;
+}
+
+.slick-track {
+        display: flex !important;
+        gap: 32px !important;
 }
 
 .slider-box {
@@ -43,26 +203,28 @@
 }
 
 .slick-dots li {
-        background-color: whitesmoke;
+        background-color: #E2E4E4;
         border-radius: 22px;
         transition: all 200ms linear;
-        width: 10px;
-        height: 10px;
-        margin-top: 32px;
+        width: 8px !important;
+        height: 8px !important;
 }
 
 .slick-dots li button:before {
-        content: unset;
+        content: unset !important;
 }
 
-.slick-dots li.slick-active {
+.slick-dots .slick-active {
         background-color: var(--fc-orange);
-        width: 12px;
-        height: 12px;
+        width: 12px !important;
+        height: 12px !important;
 }
 
 .slick-dots {
         bottom: -50px;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
 }
 
 .slick-prev:before {
@@ -91,10 +253,6 @@
         text-align: left;
 }
 
-.min-vh-70 {
-        min-height: 70vh;
-}
-
 .bg-image {
         background-image: url(/assets/images/bg-img-A.png);
         background-size: cover;
@@ -117,25 +275,6 @@
         width: 25%;
 }
 
-.mt-32 {
-        margin-top: 32px;
-}
-
-.btn {
-        font-family: "Arquitecta", sans-serif;
-        width: 25%;
-        background: #F58505 !important;
-        font-weight: 700;
-        line-height: 28px;
-        transition: all 300ms;
-        margin-bottom: 20px;
-}
-
-.btn:hover {
-        color: black !important;
-        background: white !important;
-}
-
 @media (max-width:767.98px) {
         .name-input {
                 width: 180px;
@@ -143,5 +282,89 @@
 
         .btn {
                 width: 180px;
+        }
+}
+
+@media (max-width:576.98px) {
+        footer a {
+                font-size: 16px !important;
+        }
+
+        footer .home_link li {
+                padding-bottom: 16px !important;
+        }
+
+        footer .circle {
+                height: 25px;
+                width: 25px;
+        }
+
+        .justify_content_sm_center {
+                justify-content: center;
+        }
+}
+
+@media (max-width:767.98px) {
+        .lh_md_50 {
+                line-height: 50px !important;
+        }
+}
+
+@media (max-width:991.98px) {
+        .h_370 {
+                max-height: 370px !important;
+        }
+}
+
+@media (max-width:1199.8px) {
+        label[for="menuicons"] {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                width: 40px;
+                height: 30px;
+                z-index: 1;
+                position: relative;
+        }
+
+        label[for="menuicons"]>span {
+                width: 100%;
+                height: 6px;
+                background-color: #f58550;
+                border-radius: 10px;
+                transition: all 200ms linear;
+        }
+
+        ul.menu {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: fixed;
+                flex-direction: column;
+                top: 0;
+                right: -100%;
+                height: 100vh;
+                width: 100%;
+                transition: all 200ms linear;
+        }
+
+        input[type="checkbox"]:checked~ul.menu {
+                right: 0;
+                background-color: #50725c;
+        }
+
+        input[type="checkbox"]:checked+label[for="menuicons"]>span:first-child {
+                transform: rotate(40deg);
+                transform-origin: left;
+        }
+
+        input[type="checkbox"]:checked+label[for="menuicons"]>span:nth-child(2) {
+                transform: translateX(-200%);
+                opacity: 0;
+        }
+
+        input[type="checkbox"]:checked+label[for="menuicons"]>span:last-child {
+                transform: rotate(-38deg);
+                transform-origin: left;
         }
 }
